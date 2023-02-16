@@ -1,14 +1,23 @@
 body{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
 }
 
 .header{
     background-color: #1f2937;
+    display: flex;
+    margin: 0;
+    flex-direction: column;
+}
+
+.top{
+    display: flex;
 }
 
 .logo{
     color: #f0faf8;
     font-size: 24px;
+    padding: 16px;
 }
 
 li{
@@ -39,13 +48,47 @@ a,
 }
 
 .containertop{
-
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 .title{
     color: #1f2937;
     font-size: 36px;
     font-weight: 800;
+    margin: 36px;
+}
+
+.imagecontainer{
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+    margin-bottom: 125px;
+    text-align: center;
+}
+
+.info{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.image{
+  border-radius: 25px;
+  border: 4px solid #3882f6;
+  padding: 20px;
+  width: 125px;
+  height: 125px;
+}
+
+.text{
+    color: #1f2937;
+    font-size: 18px;
+    width: 175px;
+    margin-top: 8px; 
 }
 
 .containermid{
@@ -56,18 +99,30 @@ a,
     color: #1D2937;
     font-size: 36px;
     font-style: italic;
+    width: 825px;
+    margin-top: 100px;
 }
 
 .author{
     font-size: 24px;
     color: #1f2937;
+    margin-left: 550px;
+    margin-bottom: 100px;
 }
 
 .containermid{
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .footer{
-    background-color: #1f2937;  
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
 }
+
 
